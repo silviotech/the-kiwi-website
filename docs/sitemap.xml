@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thekiwi.online/about/</loc>
+    <loc>https://musing-hypatia-b77b0c.netlify.com/about/</loc>
   </url>
   
   <url>
-    <loc>https://thekiwi.online/categories/</loc>
+    <loc>https://musing-hypatia-b77b0c.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thekiwi.online/</loc>
+    <loc>https://musing-hypatia-b77b0c.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thekiwi.online/tags/</loc>
+    <loc>https://musing-hypatia-b77b0c.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   

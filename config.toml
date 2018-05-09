@@ -1,4 +1,4 @@
-baseURL = "https://thekiwi.online"
+baseURL = "https://musing-hypatia-b77b0c.netlify.com/"
 languageCode = "en-us"
 title = "Kiwi"
 theme = "hugo-initio"
