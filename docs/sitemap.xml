@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://thekiwi.online/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://thekiwi.online/categories/</loc>
     <priority>0</priority>
   </url>
