@@ -1,3 +1,5 @@
 baseURL = "http://www.thekiwi.online"
 languageCode = "en-us"
 title = "The Kiwi"
+theme = "hugo-initio"
+publishDir = "docs"
