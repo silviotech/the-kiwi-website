@@ -1,4 +1,4 @@
-baseURL = "https://www.thekiwi.online"
+baseURL = "https://www.thekiwi.online/"
 languageCode = "en-us"
 title = "Kiwi"
 theme = "hugo-initio"
