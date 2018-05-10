@@ -359,6 +359,12 @@ img {
 .panel-cta .panel-body {
   padding: 35px;
 }
+.panel-cta .panel-body-small {
+  padding: 10px;
+}
+    .panel-cta .panel-body-small ul {
+      padding: 1em;
+    }
 /* Section - Featured */
 .featured {
   font-size: 13px;
