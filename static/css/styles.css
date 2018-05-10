@@ -362,9 +362,7 @@ img {
 .panel-cta .panel-body-small {
   padding: 10px;
 }
-    .panel-cta .panel-body-small ul {
-      padding: 1em;
-    }
+
 /* Section - Featured */
 .featured {
   font-size: 13px;
@@ -844,4 +842,14 @@ Wallet
   width: 15em;
   padding-right: 1.2em;
   text-align: right;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
 }
