@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thekiwi.online/about/</guid>
-      <description> What is KIWI KIWI Information </description>
+      <description></description>
     </item>
     
     <item>
@@ -25,17 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thekiwi.online/getting-started/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
-What is KIWI    First Header Second Header     Content Cell Content Cell   Content Cell Content Cell    KIWI Information Contract address is: 0x2BF91c18Cd4AE9C2f2858ef9FE518180F7B5096D</description>
-    </item>
-    
-    <item>
-      <title>Wallet</title>
-      <link>https://www.thekiwi.online/wallet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.thekiwi.online/wallet/</guid>
-      <description>Recepient Address:  Amount:  SEND KIWI    </description>
+      <description></description>
     </item>
     
   </channel>

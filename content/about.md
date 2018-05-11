@@ -3,10 +3,5 @@ menu = "main"
 title = "About"
 type = ""
 weight = 10
-Comments = true
+Comments = false
 +++
-
-### What is KIWI
-
-
-### KIWI Information
