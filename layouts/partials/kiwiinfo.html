@@ -16,9 +16,28 @@
       <div class="panel panel-cta">
           <div class="panel-body-small">
               <div class="col-lg-12">
+                  <p class="text-center"><strong>Your Wallet Info</strong></p>
+                    <dl>
+                      <dt>Account:</dt><dd id="coinbaseAccount">...</dd>
+                      <dt>Balance:</dt><dd id="kiwiCount">...</dd>
+                    </dl>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="panel panel-cta">
+          <div class="panel-body-small">
+              <div class="col-lg-12">
                   <p class="text-center"><strong>Current Status</strong></p>
-                  <div>
+                  <div id="blockchain-loader">
                     <p class="text-center blink">-- loading from blockchain --</p>
+                  </div>
+                  <div id="contract-info">
+                    <dl class="">
+                      <dt>Challenge:</dt><dd id="challengeNumber">...</dd>
+                      <dt>KIWI Minted:</dt><dd id="kiwiMinted">...</dd>
+                    </dl>
                   </div>
               </div>
           </div>
