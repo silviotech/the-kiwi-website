@@ -10,6 +10,13 @@
         <tr><td>Decimals:</td><td>8</td></tr>
         <tr><td>Current Block Reward:</td><td>5000 KIWI</td></tr>
         <tr><td>Target Block Mining Time:</td><td>2 mins</td></tr>
+        <tr><td colspan="2"><h4 class="text-center">Current Situation</h4></tr>
+        <tr><td colspan="2" id="blockchain-loader" class="text-center">-- Loading From The Blockchain --</tr>
+        <tr><td colspan="2" id="countdown" class="text-center"><progress value="0" max="30" id="progressBar"></progress></tr>
+        <tr><td>Difficulty:</td><td id="difficulty"></td></tr>
+        <tr><td>Minted:</td><td id="kiwiMinted">~</td></tr>
+        <tr><td>Current Challenge:</td><td id="challengeNumber">~</td></tr>
+        <tr><td>Current Reward Era:</td><td id="currentRewardEra">~</td></tr>
       </table>
     </div>
     <div class="col-lg-4">
@@ -21,26 +28,10 @@
                       <dt>Account:</dt><dd id="coinbaseAccount">...</dd>
                       <dt>Balance:</dt><dd id="kiwiCount">...</dd>
                     </dl>
+                  <p class="text-center"><strong>Send KIWI</strong></p>
               </div>
           </div>
       </div>
     </div>
-    <div class="col-lg-4">
-      <div class="panel panel-cta">
-          <div class="panel-body-small">
-              <div class="col-lg-12">
-                  <p class="text-center"><strong>Current Status</strong></p>
-                  <div id="blockchain-loader">
-                    <p class="text-center blink">-- loading from blockchain --</p>
-                  </div>
-                  <div id="contract-info">
-                    <dl class="">
-                      <dt>Challenge:</dt><dd id="challengeNumber">...</dd>
-                      <dt>KIWI Minted:</dt><dd id="kiwiMinted">...</dd>
-                    </dl>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
+
 </div> <!-- / section -->

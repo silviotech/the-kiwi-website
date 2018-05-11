@@ -21,15 +21,16 @@ eth.coinbase().then((result) => {
 
   }).catch((error) => {});
 
-token.getChallengeNumber().then((challengeNumber) => {
-  el_safe('#blockchain-loader').innerHTML = "";
-  el_safe('#challengeNumber').innerHTML = challengeNumber[0].substr(0,14) + '...';
-}).catch((error) => {});
+var seconds = 30
+updateFromBlockchain(seconds);
 
-token.tokensMinted().then((minted) => {
-    el_safe('#kiwiMinted').innerHTML = (minted[0].toString(10) / 100000000).toLocaleString() + ' ~ ' + (minted[0]/7000000000000000).toLocaleString() + '%';
+$(function() {
+  setInterval(function() {
 
-}).catch((error) => {});
+    updateFromBlockchain(seconds);
+
+  },seconds * 1000);
+});
 
 
 /** FUNCTIONS **/
@@ -41,4 +42,36 @@ var el_safe = function(id) {
     } else {
       return {};
     }
+}
+
+var interval = seconds;
+var downloadTimer = setInterval(function(){
+  document.getElementById("progressBar").value = 30 - --interval;
+  if(interval <= 0)
+    //clearInterval(downloadTimer);
+    //document.getElementById("progressBar").value = 0;
+    interval = 30;
+},1000);
+
+function updateFromBlockchain(seconds) {
+
+  //document.querySelector('#blockchain-loader').innerHTML = "-- Updating in <span id='countdown'>" + seconds + "</span> seconds --";
+  //document.querySelector('#blockchain-loader').innerHTML = "<progress value='0' max='30' id='progressBar'></progress>";
+
+  token.getChallengeNumber().then((challengeNumber) => {
+    el_safe('#challengeNumber').innerHTML = challengeNumber[0];
+  }).catch((error) => {});
+
+  token.tokensMinted().then((minted) => {
+      el_safe('#kiwiMinted').innerHTML = (minted[0].toString(10) / 100000000).toLocaleString() + ' ~ ' + (minted[0]/7000000000000000).toLocaleString() + '%';
+
+  }).catch((error) => {});
+
+  token.getMiningDifficulty().then((difficulty) => {
+      el_safe('#difficulty').innerHTML = difficulty[0].toLocaleString();
+  }).catch((error) => {});
+
+  token.rewardEra().then((rewardera) => {
+    el_safe('#currentRewardEra').innerHTML = rewardera[0].toLocaleString() + ' / 39';
+  }).catch((error) => {});
 }
