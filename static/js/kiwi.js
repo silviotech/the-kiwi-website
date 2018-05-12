@@ -18,7 +18,7 @@ eth.coinbase().then((result) => {
    account = result;
    //display Kiwi account owned by connected account
    token.balanceOf(result).then((balance) => {
-       el_safe('#kiwiCount').innerHTML = (balance.balance / 100000000).toLocaleString() + ' KIWI';
+       el_safe('#kiwiCount').innerHTML = (balance.balance / 100000000).toLocaleString('en-US', { minimumFractionDigits: 8 }) + ' KIWI';
    });
 
   }).catch((error) => {});
