@@ -1,6 +1,6 @@
 +++
 menu = "main"
-title = "Getting Started"
+title = "Start Mining"
 type = ""
 weight = 10
 +++

@@ -16,16 +16,25 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thekiwi.online/about/</guid>
-      <description></description>
+      <description> </description>
     </item>
     
     <item>
-      <title>Getting Started</title>
+      <title>Start Mining</title>
       <link>https://www.thekiwi.online/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thekiwi.online/getting-started/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>FAQs</title>
+      <link>https://www.thekiwi.online/faqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thekiwi.online/faqs/</guid>
+      <description>Why can&#39;t I see KIWI in my address on Etherscan?    When you sucessfully mine KIWI, the contract adds you to it&#39;s list of KIWI owners. This is held within the contract. However, there is no easy way for Etherscan to know that your account has KIWI until you either receive KIWI from another address or you send KIWI to another address.   How can I see how many KIWI I have?</description>
     </item>
     
   </channel>

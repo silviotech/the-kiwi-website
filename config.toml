@@ -36,7 +36,7 @@ publishDir = "docs"
 [[menu.main]]
     name = "stats"
     url = "http://thekiwi.info"
-    weight = 10
+    weight = 11
 
 [params.disqus]
     site = "the-kiwi.disqus.com"

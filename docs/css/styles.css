@@ -192,10 +192,10 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #bd1550;
+  color: #00AB1F;
 }
 a:hover {
-  color: #e93675;
+  color: #00AB1F;
 }
 .lead {
   font-weight: 300;
@@ -311,14 +311,14 @@ img {
 }
 .btn-primary {
   color: #fff;
-  background-color: #bd1550;
+  background-color: #00AB1F;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
   color: #fff;
-  background-color: #e61f65;
+  background-color: #95969D;
 }
 .btn-action {
   font-weight: bold;
