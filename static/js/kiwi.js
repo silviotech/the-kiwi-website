@@ -3,7 +3,7 @@ if (typeof window.web3 !== 'undefined' && typeof window.web3.currentProvider !==
    console.log("full web3")
 } else {
    var eth = new Eth(new Eth.HttpProvider("https://mainnet.infura.io/MnFOXCPE2oOhWpOCyEBT"));
-   log("warning: no web3 provider found, using infura.io as backup provider")
+   console.log("warning: no web3 provider found, using infura.io as backup provider")
 }
 
 var contract_address = "0x2BF91c18Cd4AE9C2f2858ef9FE518180F7B5096D";
