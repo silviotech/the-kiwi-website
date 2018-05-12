@@ -134,6 +134,72 @@
         </ol>  
       </div>
     </div>
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Are there any pools available for pool mining?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        At this stage there are no pools mining KIWI. When there are, we will have a dedicated page providing more
+        information on how to mine in a pool and also list all available pools.  
+      </div>
+    </div>
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Do I need to have Eth in my account to mine?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        Yes, when you are solo mining you will need Eth. The Eth is used to pay for submitting your mining solutions.
+        We advise creating a new account and sending across the amount of Eth you want to use for mining KIWI.  
+      </div>
+    </div>
+    <div class="panel-heading" role="tab" id="headingFive">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          How much does it cost to mine KIWI?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body">
+        This is impossible for us to tell you. The price depends on how much gwei you decide to pay.
+        The actual transaction cost at <b>1 Gwei</b> is around <b>0.000094818 Ether</b>, however you will need to pay more than 1 Gwei to ensure your solution has a chance of winning.<br><br>
+        To get an idea of how much Gwei you should use, you need to check in 2 places.
+        <ol>
+          <li><a href="https://ethgasstation.info/">ETH Gas Station</a>: This shows you what price on average people are
+          paying for miners at the moment. If you set lower than this, it is likely to take awhile to be processed, and
+          therefore most likely you will lose.</li>
+          <li><a href="http://thekiwi.info">KIWI Stats Website</a>: Here you will be able to see how much gas the last winning
+          transactions cost.
+        </ol>
+        So, a simple strategy would be to go 1 higher than the gas price shown on the Stats page if that price is the same or
+        greater than the <em>Gas Price Std (Gwei)</em> price shown on Eth Gas Station. Otherwise, you need to set the same gas price as shown on Eth Gas Station.<br><br>
+        <em>Please note: we do not guarantee that this strategy will win everytime, and there will be other that beat you or are using the same strategy. It is down to each one of you to decide with what price you are comfortable in paying.</em>
+      </div>
+    </div>
+    <div class="panel-heading" role="tab" id="headingSix">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          My transaction failed! Why?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body">
+        If you see a failed transaction on Etherscan, then that normally means that another solution from another miner won
+        the KIWI for that round. In any given round, multiple miners can submit winning solutions. However, because of how
+        the blockchain works, only 1 can be accepted as the correct answer.<br><br>
+        <em>When your transaction fails, you do not lose all of the Eth that you paid for the transaction, only about 25%
+        is lost.</em>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -162,10 +228,9 @@
 			<div class="col-md-3 widget">
 				<h3 class="widget-title">Contact</h3>
 				<div class="widget-body">
-					<p><br>
-						<a href="mailto:contact@thekiwi.online">contact@thekiwi.online</a><br>
-						<br>
-						
+					<p>
+						<a href="mailto:contact@thekiwi.online">Email</a><br>
+						<a href="https://discord.gg/pBXKwyx" target="_blank">Discord</a>
 					</p>
 				</div>
 			</div>
@@ -198,8 +263,6 @@
               
             
             	
-              	<a href="mailto:contact@thekiwi.online" target="_blank"><i class=" fab fa-discord fa-2"></i></a>
-              
             
 					</p>
 				</div>

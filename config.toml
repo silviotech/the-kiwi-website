@@ -106,8 +106,8 @@ publishDir = "docs"
     network = "email"
 [[params.social]]
   	title = "discord"
-  	url = "mailto:contact@thekiwi.online"
+  	url = "https://discord.gg/pBXKwyx"
       icon = "fab fa-discord"
-      footer = true
+      footer = false
       sharethis = true
       network = "email"
