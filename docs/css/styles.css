@@ -853,3 +853,18 @@ Wallet
 .blink {
   animation: blinker 1s linear infinite;
 }
+
+
+progress {
+  color: 00AB1F;
+  font-size: .6em;
+  line-height: 1.5em;
+  text-indent: .5em;
+  width: 15em;
+  height: 1.8em;
+  border: 1px solid grey;
+  background: #fff;
+}
+
+progress::-webkit-progress-bar { background: #fff; }
+progress::-webkit-progress-value { background: 00AB1F; }
