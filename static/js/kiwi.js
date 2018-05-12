@@ -93,7 +93,6 @@ $("#send-kiwi-button").on('click',function( event ){
     if(error == 'invalid address') {
       $('#transferAddressGroup').addClass('has-error');
       alert('Address is invalid. Please check');
-
     }
 
   });
@@ -104,15 +103,10 @@ async function startTransfer(amount, addressTo, callback) {
 
   //validate addressTo
   if(Eth.isAddress(addressTo)) {
-    //convert to base unit (i.e 1 KIWI = 100000000)
-    amt = amount * Math.pow(10,8);
-
-    //this will trigger metamask for signing
-    token.transfer(addressTo,amt, {from:account});
+    amt = amount * Math.pow(10,8);  //convert to base unit (i.e 1 KIWI = 100000000)
+    token.transfer(addressTo,amt, {from:account}); //this will trigger metamask for signing
   } else {
     throw "invalid address";
   }
-
-
 
 }
