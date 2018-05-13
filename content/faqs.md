@@ -19,7 +19,7 @@ Comments = false
     </div>
     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
-        When you sucessfully mine KIWI, the contract adds you to it's list of KIWI owners. This is held within the contract.
+        When you sucessfully mine KIWI, the contract adds you to its list of KIWI owners. This is held within the contract.
         However, there is no easy way for Etherscan to know that your account has KIWI until you either receive KIWI from
         another address or you send KIWI to another address.
       </div>
