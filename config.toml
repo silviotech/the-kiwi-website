@@ -25,7 +25,7 @@ publishDir = "docs"
 
     footerEnableContact = true
     footerEnableFollowme = true
-    footerEnableTextWidget = true
+    footerEnableTextWidget = false
     footerEnableFormWidget = true
 
 [[menu.main]]
