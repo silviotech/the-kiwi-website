@@ -5,7 +5,7 @@
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 
-	<title>Start Mining</title>
+	<title>Get Started</title>
 
 	<link rel="shortcut icon" href="http://www.thekiwi.online/images/kiwi-logo-small.png">
 
@@ -60,7 +60,7 @@
                 </li>
                 
                 <li>
-                    <a href="/getting-started/">Start Mining</a>
+                    <a href="/getting-started/">Get Started</a>
                 </li>
                 
                 <li>
@@ -91,10 +91,84 @@
 
  				<article class="post">
 					<header class="entry-header">
- 						<h1 class="entry-title"><a href="http://www.thekiwi.online/getting-started/" rel="bookmark">Start Mining</a></h1>
+ 						<h1 class="entry-title"><a href="http://www.thekiwi.online/getting-started/" rel="bookmark">
+							
+								How to mine KIWI: A Beginners Guide
+							
+						</a></h1>
 					</header>
 					<div class="entry-content">
 						
+
+<p>Currently, difficulty is low enough that CPU mining is viable! So you can let your GPUs work away mining ETH or other coins, while putting the CPU to work as well.</p>
+
+<h4 id="mining-software">Mining Software</h4>
+
+<p>To mine KIWI you need to download and run special software that has been built for the task of mining.
+Currently there are 2 miners that can mine KIWI.</p>
+
+<ol>
+<li>MVis Token Miner - <a href="https://github.com/mining-visualizer/MVis-tokenminer/releases">https://github.com/mining-visualizer/MVis-tokenminer/releases</a></li>
+<li>COSMiC - <a href="https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/">https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/</a></li>
+</ol>
+
+<p><strong>We currently recommend MVis Token Miner and provide details below on how to set up for <strong>solo mining</strong>.</strong></p>
+
+<h5 id="setting-up-mvis-token-miner">Setting up MVis Token Miner</h5>
+
+<p><em>These instructions are for CPU mining, it does not make sense to be GPU mining at this stage.</em></p>
+
+<p>You need to have the following:</p>
+
+<ul>
+<li>An ethereum account with some ETH loaded on it.</li>
+<li>Your own infura.io url - signup at <a href="http://infura.io/signup">http://infura.io/signup</a></li>
+<li>And the MVis Token Miner - download from link above</li>
+</ul>
+
+<p><em>These instructions were written using <a href="https://github.com/mining-visualizer/MVis-tokenminer/releases/download/v1.1.13/mvis-tokenminer-2.1.13-win64.zip">MVis-tokenminer 2.1.13</a></em></p>
+
+<h5 id="step-1">Step 1</h5>
+
+<p>Download and extract MVis Token Miner software to your computer.</p>
+
+<h5 id="step-2">Step 2</h5>
+
+<ol>
+<li>In the extracted folder you will see a folder called <em>tokenminer</em>, inside this folder
+is a file called <strong>tokenminer.ini</strong>.</li>
+<li>Open up this file with Notepad and add your information:
+
+<ol>
+<li>Host=<a href="https://mainnet.infura.io/your_api_key">https://mainnet.infura.io/your_api_key</a></li>
+<li>RPCPort=8545</li>
+<li>MinerAcct=0x&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.</li>
+<li>AcctPK=&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</li>
+<li>TokenContract=0x2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d</li>
+<li>GasPrice=5</li>
+</ol></li>
+</ol>
+
+<p><strong>MinerAcct</strong> is your Ethereum account that should have some ETH. <br />
+<strong>AcctPK</strong> is the private key of your Ethereum account. <br />
+You will need to adjust <strong>GasPrice</strong> as you see fit. Please see the FAQs page for more information.</p>
+
+<h5 id="step-3">Step 3</h5>
+
+<p>Everything is ready to go. Time to get mining!</p>
+
+<ol>
+<li>Open up <em>cmd</em> window.</li>
+<li>Browse to where you extracted the miner.</li>
+<li>Run the following command: <code>tokenminer.exe -S -C -t 1</code></li>
+</ol>
+
+<p>The command above is starting your miner in solo mode, using 1 CPU thread. You can adjust the number of threads by changing
+<code>-t 1</code> to the number of threads you want to mine with. <code>-t 2</code> for example will use 2 threads and double your hash power used
+for mining.</p>
+
+<p>Good Luck! If you need further help, please ask in the support channel of Discord - <a href="https://discord.gg/8fm7Dyk">https://discord.gg/8fm7Dyk</a></p>
+
 					</div>
 				</article>
 
@@ -219,9 +293,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="http://www.thekiwi.online/js/template.js"></script>
-<script src="http://www.thekiwi.online/js/ethjs.js"></script>
-<script src="http://www.thekiwi.online/js/abi.js"></script>
-<script src="http://www.thekiwi.online/js/kiwi.js"></script>
+
+
+
 <script id="dsq-count-scr" src="//the-kiwi.disqus.com/count.js" async></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

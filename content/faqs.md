@@ -1,6 +1,7 @@
 +++
 menu = "main"
 title = "FAQs"
+pagetitle = "Frequently Asked Questions"
 type = ""
 weight = 11
 Comments = false
