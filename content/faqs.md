@@ -113,5 +113,17 @@ Comments = false
         is lost.</em>
       </div>
     </div>
+    <div class="panel-heading" role="tab" id="headingSeven">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+          Where can I get more help?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body">
+        The best place to ask is in our discord channel. <a href="https://discord.gg/8fm7Dyk">https://discord.gg/8fm7Dyk</a> - Please ask in the #support channel. 
+      </div>
+    </div>
   </div>
 </div>

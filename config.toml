@@ -10,7 +10,7 @@ publishDir = "docs"
     email = "contact@thekiwi.online"
     phone = ""
     address = ""
-    lastupdated = "10th May 2018"
+    lastupdated = "13th May 2018"
     year = 2018
     background = ""
     favicon = "images/kiwi-logo-small.png"
@@ -57,9 +57,9 @@ publishDir = "docs"
     network = "facebook"
 [[params.social]]
 	title = "twitter"
-	url = ""
-    icon = "fa-twitter-square"
-    footer = false
+	url = "https://twitter.com/thekiwitoken"
+    icon = "fab fa-twitter-square"
+    footer = true
     sharethis = true
     network = "twitter"
 [[params.social]]
