@@ -27,8 +27,8 @@ We have 5 key projects that we will be developing over the coming months. These 
 4. VERIFIED
 5. LENS
 
-Each of these projects will require KIWI to operate. We will create more details on each of these projects shortly, in
-the meantime here is a very brief brief on each of the projects.
+Each of these projects will require KIWI to operate. We will release more details on each of these projects shortly, in
+the meantime here is a small rundown on each of the projects.
 
 ##### BOUNTY
 Bounty is a better crowd funding platform that lets you influence what should be developed next. Developing products based on demand.
