@@ -868,3 +868,7 @@ progress {
 
 progress::-webkit-progress-bar { background: #fff; }
 progress::-webkit-progress-value { background: 00AB1F; }
+
+#messagebar {
+  display: none;
+}

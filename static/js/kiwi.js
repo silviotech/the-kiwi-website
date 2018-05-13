@@ -87,6 +87,7 @@ $("#send-kiwi-button").on('click',function( event ){
 
   startTransfer(amount, addressto, function(error,response){
     console.log(response)
+    //$('#messagebar').show();
   }).catch((error) => {
 
     console.log(error)
