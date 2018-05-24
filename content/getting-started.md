@@ -35,7 +35,7 @@ Download and extract MVis Token Miner software to your computer.
 ##### Step 2
 1. In the extracted folder you will see a folder called _tokenminer_, inside this folder
 is a file called __tokenminer.ini__.
-2. Open up this file with Notepad and add your information:
+2. Open up this file with Notepad and add your information by finding the differnt places in the file. **DO NOT DELETE THE OTHER INFORMATION IN THIS FILE**, just replace where it asks.:
   1. Host=https://mainnet.infura.io/your_api_key
   2. RPCPort=8545
   3. MinerAcct=0x...................
