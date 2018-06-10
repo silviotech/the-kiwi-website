@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav">
                 {{ range .Site.Menus.main }}
                 <li>
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}" {{ if eq .Name "stats" }} target="_blank" {{ end }}>{{ .Name }}</a>
                 </li>
                 {{end}}
 
