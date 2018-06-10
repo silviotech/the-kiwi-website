@@ -52,10 +52,14 @@ Everything is ready to go. Time to get mining!
 
 1. Open up *cmd* window.
 2. Browse to where you extracted the miner.
-3. Run the following command: `tokenminer.exe -S -C -t 1`
+3. Run the following command: `tokenminer.exe -S -G -t 1`
 
-The command above is starting your miner in solo mode, using 1 CPU thread. You can adjust the number of threads by changing
+The command above is starting your miner in solo mode, using 1 GPU. You can adjust the number of threads by changing
 `-t 1` to the number of threads you want to mine with. `-t 2` for example will use 2 threads and double your hash power used
 for mining.
+
+You can try `tokenminer.exe -S -C -t 1` if you would like to try CPU mining, but if the difficulty is above 90 then we recommend
+GPU mining.
+
 
 Good Luck! If you need further help, please ask in the support channel of Discord - https://discord.gg/8fm7Dyk
