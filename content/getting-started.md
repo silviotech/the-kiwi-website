@@ -6,7 +6,7 @@ type = ""
 weight = 10
 +++
 
-Currently, difficulty is low enough that CPU mining is viable! So you can let your GPUs work away mining ETH or other coins, while putting the CPU to work as well.
+Please note that CPU mining is no longer viable. You need to mine with GPU using instructions below.
 
 #### Mining Software
 To mine KIWI you need to download and run special software that has been built for the task of mining.
@@ -54,8 +54,8 @@ Everything is ready to go. Time to get mining!
 2. Browse to where you extracted the miner.
 3. Run the following command: `tokenminer.exe -S -G -t 1`
 
-The command above is starting your miner in solo mode, using 1 GPU. You can adjust the number of threads by changing
-`-t 1` to the number of threads you want to mine with. `-t 2` for example will use 2 threads and double your hash power used
+The command above is starting your miner in solo mode, using 1 GPU. You can adjust the number of cards by changing
+`-t 1` to the number of cards you want to mine with. `-t 2` for example will use 2 cards and double your hash power used
 for mining.
 
 You can try `tokenminer.exe -S -C -t 1` if you would like to try CPU mining, but if the difficulty is above 90 then we recommend
