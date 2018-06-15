@@ -1,4 +1,4 @@
-baseURL = "http://www.thekiwi.online/"
+baseURL = "https://www.thekiwi.online/"
 languageCode = "en-us"
 title = "Kiwi"
 theme = "hugo-initio"
@@ -14,7 +14,7 @@ publishDir = "docs"
     year = 2018
     background = ""
     favicon = "images/kiwi-logo-small.png"
-    DateForm = "January 2, 2006"
+    DateForm = "January 2, 2008"
 
     showSubheader = true
     showKiwiInfo = true
