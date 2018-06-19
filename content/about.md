@@ -21,9 +21,9 @@ We believe a mineable __***ERC-918 / ERC-20***__ compliant currency is the faire
 ### Key Projects
 We have 5 key projects that we will be developing over the coming months. These 5 projects are:
 
-1. BOUNTY
-2. MENTOR
-3. AVATAR
+1. AVATAR
+2. BOUNTY
+3. MENTOR
 4. VERIFIED
 5. LENS
 
