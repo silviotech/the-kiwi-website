@@ -24,6 +24,7 @@ Comments = false
       </div>
       <div class="col-sm-6 col-md-6">
         <h3 class="text-center">Joey, <small>Detroit, Michigan USA</small></h3>
+        <img src="/images/profiles/silvioj.jpg" class="profile-img">
         <p>Joey here, better known as silvioj in the KIWI discord chat. Started in the crypto world quite late, but have developed a strong passion for all things crypto. I see the endless possibilities decentralization, and blockchain technologies offer.</p>
         <p>37 years old, I have a basic 2-year degree in programming (years ago), run a small web design and marketing company, and also work full time at Ford.</p>
         <p>The KIWI project to me is all about community and passion for technology, the possibilities are endless where this token can end up. I’m happy to come for the ride and contribute wherever I can to help give this token a bright future. There’s no doubt you will not find a more open, and caring community.</p>
