@@ -9,7 +9,7 @@ Comments = false
 
 <div class="row section featured topspace">
   <h2 class="section-title"><span>Welcome</span></h2>
-  <p class="lead text-center text-muted">The KIWI is more than just a cryptocurrency token. Everyday more and more people are joining us believing in the vision of Liberation Online and what the KIWI offers to everyone. We are passionate individuals from around the world that want to see change, we want the world to be a better place, a fairer place, a kinder place.</p>
+  <p class="lead text-center text-muted">The KIWI is more than just a cryptocurrency token. Everyday more and more people are joining us believing in the vision of <a href="http://liberation.online">Liberation Online</a> and what the KIWI offers to everyone. We are passionate individuals from around the world that want to see change, we want the world to be a better place, a fairer place, a kinder place.</p>
   <p class="lead text-center text-muted">You can already see this on our discord channel ( <a href="https://discord.gg/pBXKwyx">https://discord.gg/pBXKwyx</a> ) and can read a few comments below from just a few people from the community. We would love to have you join us as well.</p>
 </div>
 
