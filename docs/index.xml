@@ -2,41 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kiwi</title>
-    <link>http://www.thekiwi.online/</link>
+    <link>https://www.thekiwi.online/</link>
     <description>Recent content on Kiwi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://www.thekiwi.online/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.thekiwi.online/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://www.thekiwi.online/about/</link>
+      <link>https://www.thekiwi.online/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.thekiwi.online/about/</guid>
+      <guid>https://www.thekiwi.online/about/</guid>
       <description>What is KIWI? The KIWI is a utility token, rather than a security. The KIWI will be used as the preferred payment method in exchange of all products, services and tools being developed by Liberation Online as well as a growing number of other businesses.
 The KIWI is an open source mineable ERC20 / ERC918 token. The KIWI is a currency that anyone can mine, buy and sell. The KIWI is also going to be the only accepted currency for a new ICO model being developed by Liberation Online that will bring a new standard in fairness and transparency when it comes to raising funds on the blockchain.</description>
     </item>
     
     <item>
-      <title>Get Started</title>
-      <link>http://www.thekiwi.online/getting-started/</link>
+      <title>Our Community</title>
+      <link>https://www.thekiwi.online/community/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.thekiwi.online/getting-started/</guid>
-      <description>Currently, difficulty is low enough that CPU mining is viable! So you can let your GPUs work away mining ETH or other coins, while putting the CPU to work as well.
+      <guid>https://www.thekiwi.online/community/</guid>
+      <description>Welcome The KIWI is more than just a cryptocurrency token. Everyday more and more people are joining us believing in the vision of Liberation Online and what the KIWI offers to everyone. We are passionate individuals from around the world that want to see change, we want the world to be a better place, a fairer place, a kinder place.
+You can already see this on our discord channel ( https://discord.</description>
+    </item>
+    
+    <item>
+      <title>Get Started</title>
+      <link>https://www.thekiwi.online/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thekiwi.online/getting-started/</guid>
+      <description>Please note that CPU mining is no longer viable. You need to mine with GPU using instructions below.
 Mining Software To mine KIWI you need to download and run special software that has been built for the task of mining. Currently there are 2 miners that can mine KIWI.
- MVis Token Miner - https://github.com/mining-visualizer/MVis-tokenminer/releases COSMiC - https://bitbucket.</description>
+ MVis Token Miner - https://github.com/mining-visualizer/MVis-tokenminer/releases COSMiC - https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/  We currently recommend MVis Token Miner and provide details below on how to set up for solo mining.</description>
     </item>
     
     <item>
       <title>FAQs</title>
-      <link>http://www.thekiwi.online/faqs/</link>
+      <link>https://www.thekiwi.online/faqs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.thekiwi.online/faqs/</guid>
+      <guid>https://www.thekiwi.online/faqs/</guid>
       <description>Why can&#39;t I see KIWI in my address on Etherscan?    When you sucessfully mine KIWI, the contract adds you to its list of KIWI owners. This is held within the contract. However, there is no easy way for Etherscan to know that your account has KIWI until you either receive KIWI from another address or you send KIWI to another address.   How can I see how many KIWI I have?</description>
     </item>
     

@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 .topspace {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 /*********************************************************************
 
@@ -313,6 +313,10 @@ img {
 .btn-primary {
   color: #fff;
   background-color: #00AB1F;
+	/*Style update by silvioj*/
+	border-radius: 7px;
+    box-shadow: -1px 2px 7px #000;
+
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -320,10 +324,12 @@ img {
 .btn-primary.active {
   color: #fff;
   background-color: #95969D;
+	/*Style update silvioj, remove box shadow on hover. looks more like a "pressed" appearance*/
+	    box-shadow: none;
 }
 .btn-action {
   font-weight: bold;
-  background: transparent!important;
+  background: transparent !important;
   border: 1px solid #333;
   text-shadow: none;
 }
@@ -335,10 +341,14 @@ img {
   border-color: #bd1550;
 }
 .btn-lg {
-  padding: 15px 60px;
-  font-size: 12px;
-  line-height: 1.33;
-  font-weight: bold;
+    padding: 1em;
+    font-size: 12px;
+    line-height: 1.33;
+    font-weight: bold;
+	/*fix mobile button appearance for "start mining button 100% width*/
+	white-space: normal !important;
+    width: 100%;
+	margin-top: 8px;
 }
 .panel-cta {
   box-shadow: 0 0 0 1px #e1e1e1, 0 0 0 3px #fff, 0 0 0 4px #e1e1e1;
@@ -358,7 +368,7 @@ img {
   margin: 0;
 }
 .panel-cta .panel-body {
-  padding: 35px;
+  padding: 15px;
 }
 .panel-cta .panel-body-small {
   padding: 10px;
@@ -771,6 +781,7 @@ footer.entry-meta .meta-in {
   padding: 30px 0 0 0;
   font-size: 12px;
   color: #999;
+  padding-bottom: 20px;  /*fix for bottom of page, slight padding added*/
 }
 #footer a {
   color: #ccc;
@@ -875,6 +886,19 @@ progress::-webkit-progress-value { background: 00AB1F; }
 }
 
 /*Bootstrap fix for sizing issue on mobile devices*/
+
+
+/*padding fixes, gives a small bit more screen especially on mobile*/
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+/*padding fixes, gives a small bit more screen especially on mobile*/
+.container {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
 .row {
 	margin-right: 0 !important;
     margin-left: 0 !important;
@@ -884,3 +908,11 @@ progress::-webkit-progress-value { background: 00AB1F; }
     word-break: break-word;
 }
 /* END Bootstrap fix*/
+
+.profile-img {
+  border: 1px solid #333;
+  padding: 3px;
+  float: left;
+  width: 125px;
+  margin-right: 8px;
+}
