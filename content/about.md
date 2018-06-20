@@ -2,7 +2,7 @@
 menu = "main"
 title = "About"
 type = ""
-weight = 10
+weight = 3
 Comments = false
 +++
 
