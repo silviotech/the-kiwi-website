@@ -18,6 +18,7 @@ Comments = false
     <div class="row">
       <div class="col-sm-6 col-md-6">
         <h3 class="text-center">JACKO, <small>USA</small></h3>
+        <img src="/images/profiles/shy.jpg" class="profile-img">
         <p>Initially in the KIWI community you are going to find many like minded community members that have various technical skills to help advance things along while Adam concentrates on the bigger picture.  Mostly,  web developers, programers and some pretty talented hobbyists are available to assist with mining set-up, overall guideance, etc.</p>
         <p>But eventually you'll start seeing more and more members like myself that don't have the technical skills, but are willing to learn about the projects being worked on to help spread the word.  In the chat I don't have much to contribute, so I stay on the sidelines, but that doesn't matter because I am learning a lot as I read through the different channels.</p>
         <p>It's not at all a tough crowd, so I think I'll stay for awhile and as long as the community is willing to have me around.  They are mostly forgiving, so that should be for quite some time.</p>
