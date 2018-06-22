@@ -15,7 +15,7 @@ weight = 10
 			</div>
 		</div>
 		
-<button class="md-trigger" data-modal="modal-1">Solo Mining Video</button>
+<button class="md-trigger btn btn-primary btn-lg" data-modal="modal-1">Solo Mining Video</button>
 
 Please note that CPU mining is no longer viable. You need to mine with GPU using instructions below.
 
