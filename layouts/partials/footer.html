@@ -87,13 +87,28 @@
 		</div> <!-- /row of widgets -->
 	</div>
 </footer>
-
+<div class="md-overlay"></div><!-- the overlay element -->
 
 
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/template.js"></script>
+
+
+	<script src="{{ .Site.BaseURL }}modalwindoweffects/js/classie.js"></script>
+		<script src="{{ .Site.BaseURL }}modalwindoweffects/js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '{{ .Site.BaseURL }}modalwindoweffects/js/';
+		</script>
+		<script src="{{ .Site.BaseURL }}modalwindoweffects/js/cssParser.js"></script>
+		<script src="{{ .Site.BaseURL }}modalwindoweffects/js/css-filters-polyfill.js"></script>
+
+
 
 {{ if or (.Params.LoadWeb3) (.IsHome) }}
 <script src="{{ .Site.BaseURL }}js/ethjs.js"></script>
