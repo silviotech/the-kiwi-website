@@ -8,9 +8,23 @@ weight = 10
 <div class="md-modal md-effect-1" id="modal-1">
 			<div class="md-content"> 
 			<div>
+		<iframe style="width: 100%;" width="854" height="480" src="https://www.youtube.com/embed/OzYqiPC7VhE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+					<button style="margin-top:7px" class="md-close btn btn-primary">Close me!</button>
+					<div></div>
+				</div>
+			</div>
+		</div>
+		
+<button class="md-trigger btn btn-primary btn-lg" data-modal="modal-1">Pool Mining Video</button>
+
+<div class="md-modal md-effect-1" id="modal-1">
+			<div class="md-content"> 
+			<div>
 		<iframe style="width: 100%;" width="854" height="480" src="https://www.youtube.com/embed/n573Fk8MIfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
-					<button class="md-close">Close me!</button>
+					<button style="margin-top:7px" class="md-close btn btn-primary">Close me!</button>
+					<div></div>
 				</div>
 			</div>
 		</div>
