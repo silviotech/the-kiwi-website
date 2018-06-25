@@ -5,6 +5,7 @@ title = "Get Started"
 type = ""
 weight = 10
 +++
+<!–– -->
 <div class="md-modal md-effect-19" id="modal-1">
 	<div class="md-content"> 
 			<div>
@@ -14,12 +15,7 @@ weight = 10
 					<div></div>
 		</div>
 </div>
-		<div class="md-overlay"></div><!-- the overlay element -->
-
 		
-		
-<button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-1">Pool Mining Video</button>
-
 <div class="md-modal md-effect-19" id="modal-2">
 	<div class="md-content"> 
 	<div>
@@ -29,7 +25,10 @@ weight = 10
 					<div></div>
 	</div>
 </div>
+		<div class="md-overlay"></div><!-- the overlay element -->
 		
+<button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-1">Pool Mining Video</button>
+
 <button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-2">Solo Mining Video</button>
 
 Please note that CPU mining is no longer viable. You need to mine with GPU using instructions below.
