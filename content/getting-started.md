@@ -5,7 +5,7 @@ title = "Get Started"
 type = ""
 weight = 10
 +++
-<div class="md-modal md-effect-1" id="modal-1">
+<div class="md-modal md-effect-19" id="modal-1">
 	<div class="md-content"> 
 			<div>
 		<iframe style="width: 100%;" width="854" height="480" src="https://www.youtube.com/embed/OzYqiPC7VhE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ weight = 10
 	</div>
 </div>
 		
-<button class="md-trigger btn btn-primary btn-lg" data-modal="modal-2">Solo Mining Video</button>
+<button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-2">Solo Mining Video</button>
 
 Please note that CPU mining is no longer viable. You need to mine with GPU using instructions below.
 
