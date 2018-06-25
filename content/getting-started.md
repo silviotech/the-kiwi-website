@@ -14,12 +14,13 @@ weight = 10
 					<div></div>
 		</div>
 </div>
-		
-		
-		
-<button class="md-trigger btn btn-primary btn-lg" data-modal="modal-1">Pool Mining Video</button>
+		<div class="md-overlay"></div><!-- the overlay element -->
 
-<div class="md-modal md-effect-1" id="modal-2">
+		
+		
+<button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-1">Pool Mining Video</button>
+
+<div class="md-modal md-effect-19" id="modal-2">
 	<div class="md-content"> 
 	<div>
 		<iframe style="width: 100%;" width="854" height="480" src="https://www.youtube.com/embed/n573Fk8MIfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
