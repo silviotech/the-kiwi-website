@@ -2,7 +2,6 @@ baseURL = "https://www.thekiwi.online/"
 languageCode = "en-us"
 title = "The Kiwi Token | Mineable ERC-20/ERC-918 Token"
 Description = "One of the first mineable ERC-20 / ERC-918 tokens, which offers a variety of products being developed behind the scenes that will use KIWI Token as the source of payment. KIWI is a utility token and will offer tangible services and products."
-keywords = "KIWI,Token,cryptocurrency"
 theme = "hugo-initio"
 publishDir = "docs"
 
