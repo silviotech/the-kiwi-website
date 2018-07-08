@@ -8,7 +8,7 @@ weight = 10
 +++
 <!–– -->
 <div class="md-modal md-effect-19" id="modal-1">
-	<div class="md-content"> 
+	<div class="md-content">
 			<div>
 		<iframe style="width: 100%;" width="854" height="480" src="https://www.youtube.com/embed/OzYqiPC7VhE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
@@ -16,9 +16,9 @@ weight = 10
 					<div></div>
 		</div>
 </div>
-		
+
 <div class="md-modal md-effect-19" id="modal-2">
-	<div class="md-content"> 
+	<div class="md-content">
 	<div>
 		<iframe style="width: 100%;" width="854" height="480" src="https://www.youtube.com/embed/n573Fk8MIfY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
@@ -27,7 +27,7 @@ weight = 10
 	</div>
 </div>
 		<div class="md-overlay"></div>
-		
+
 <button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-1">Pool Mining Video</button>
 
 <button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-2">Solo Mining Video</button>
@@ -54,8 +54,8 @@ Currently there are 2 miners that can mine KIWI.
   <div id="solomining" class="tab-pane fade in active">
     <p>
 		You need to have the following:
-		
-- An ethereum account with some ETH loaded on it. 
+
+- An ethereum account with some ETH loaded on it.
 - Your own infura.io url - signup at http://infura.io/signup
 - And the MVis Token Miner - download from link above
 
@@ -74,7 +74,7 @@ is a file called __tokenminer.ini__.
   6. GasPrice=5
 
 **MinerAcct** is your Ethereum account that should have some ETH.
-**AcctPK** is the private key of your Ethereum account. 
+**AcctPK** is the private key of your Ethereum account.
 You will need to adjust **GasPrice** as you see fit. Please see the FAQs page for more information.
 
 ##### Step 3<br>
@@ -121,10 +121,10 @@ Everything is ready to go. Time to get mining!
 The command above is starting your miner in pool(-P) mode, using 1 GPU. You can adjust the number of cards by changing
 `-t 1` to the number of cards you want to mine with. `-t 2` for example will use 2 cards and double your hash power used
 for mining.	MVIS currently only supports multiple cards of the same brand, you cant mix AMD and NVIDIA.
- 
+
  </p>
   </div>
-  
+
 </div>
 
 Good Luck! If you need further help, please ask in the support channel of Discord - <a href="https://discord.gg/8fm7Dyk">https://discord.gg/8fm7Dyk</a>
