@@ -7,7 +7,7 @@ publishDir = "docs"
 
 [params]
     name = "The KIWI"
-	keywords = "KIWI,token,cryptocurrency,ERC-20/ERC-918"  #fallback for homepage
+	keywords = "KIWI,token,cryptocurrency,ERC-20,ERC-918"  #fallback for homepage
     description = "A mineable ERC-20 / ERC-918 Token"
 	SiteDescription = "One of the first mineable ERC-20 / ERC-918 tokens, which offers a variety of products being developed behind the scenes that will use KIWI Token." #fallback for homepage
     email = "contact@thekiwi.online"
